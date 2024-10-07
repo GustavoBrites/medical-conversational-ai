@@ -10,7 +10,7 @@ def load_index(DATA_PATH="../data/qa_data.csv"):
     index = minsearch.Index(
         text_fields=[ 
                         'question_type',
-                        'question'
+                        'question',
                         'answer'],
         keyword_fields=["id"]
     ) 
