@@ -3,7 +3,7 @@
 This is a friendly RAG-based conversational AI that helps answer questions related to outlooks and researches regarding medical diseases. 
 
 <p align="center">
-  <img src="assets/med_conv_ai_image.jpg">
+  <img src="assets/med_conv_ai_image.jpg" width="300">
 </p>
 
 This project was implemented as part of 
