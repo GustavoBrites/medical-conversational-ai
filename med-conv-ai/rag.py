@@ -86,7 +86,7 @@ and provide your evaluation in parsable JSON without using code blocks:
 
 
 def evaluate_relevance(question, answer):
-    prompt = rag_eval_prompt.format(question=question, answer=answer)
+    prompt = rag_eval_prompt.format(question=question, answer_llm=answer)
     evaluation, tokens = llm(prompt, model="gpt-4o-mini")
 
     try:

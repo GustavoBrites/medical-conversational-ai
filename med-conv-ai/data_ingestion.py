@@ -2,7 +2,7 @@ import pandas as pd
 import minsearch
 import os
 
-DATA_PATH = os.getenv("DATA_PATH", "data/qa_data.csv")
+DATA_PATH = os.getenv("DATA_PATH", "../data/qa_data.csv")
 
 # def load_index(DATA_PATH="data/qa_data.csv"):
 def load_index():
