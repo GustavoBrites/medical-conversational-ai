@@ -1,8 +1,12 @@
 import pandas as pd
 import minsearch
+import os
 
-def load_index(DATA_PATH="../data/qa_data.csv"):
-    
+DATA_PATH = os.getenv("DATA_PATH", "data/qa_data.csv")
+
+# def load_index(DATA_PATH="data/qa_data.csv"):
+def load_index():
+
     df = pd.read_csv(DATA_PATH)
 
     documents = df.to_dict(orient='records')
@@ -17,3 +21,5 @@ def load_index(DATA_PATH="../data/qa_data.csv"):
 
     index.fit(documents) 
     return index
+
+print("here")

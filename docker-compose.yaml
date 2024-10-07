@@ -16,7 +16,9 @@ services:
       dockerfile: Dockerfile
     environment:
       OPENAI_API_KEY: ${OPENAI_API_KEY}
-      DATA_PATH: "data/qa_data.csv"
+      DATA_PATH: "/app/data/qa_data.csv"   # Define the data path as an environment variable
+    volumes:
+      - ./data:/app/data                   # Mount local data directory to container
     ports:
       - "${APP_PORT:-5000}:5000"
     depends_on:

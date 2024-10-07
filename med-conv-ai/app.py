@@ -8,6 +8,10 @@ import db
 
 app = Flask(__name__)
 
+@app.route("/", methods=["GET"])
+def home():
+    return "Welcome to the Flask App! Use /question or /feedback endpoints."
+
 
 @app.route("/question", methods=["POST"])
 def handle_question():
