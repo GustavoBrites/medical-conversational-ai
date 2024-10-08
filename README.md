@@ -148,7 +148,7 @@ The code for the application is in the [`med-conv-ai`](med-conv-ai) folder:
 - [`rag.py`](med-conv-ai/rag.py) - the main RAG logic for building the retrieving the data and building the prompt
 - [`data_ingestion.py`](med-conv-ai/ingest.py) - loading the data into the knowledge base
 - [`minsearch.py`](med-conv-ai/minsearch.py) - an in-memory search engine
-- [`db.py`](fitness_assistant/db.py) - the logic for logging the requests and responses to postgres
+- [`db.py`](med-conv-ai/db.py) - the logic for logging the requests and responses to postgres
 - [`db_prep.py`](med-conv-ai/db_prep.py) - the script for initializing the database
 
 We also [`cli.py`](cli.py) - interactive CLI for the application - in the project root directory.
