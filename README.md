@@ -201,16 +201,20 @@ of our RAG flow.
 
 Using `gpt-4o-mini`, two prompts were tested in a sample with 200 records. They differed only on the first lines.
 
-The first prompt started with the phrases "You are an expert evaluator for a RAG system.
-Your task is to analyze the relevance of the generated answer to the given question." and obtained the following results:
+The first prompt started with the phrases:
+*"You are an expert evaluator for a RAG system.
+Your task is to analyze the relevance of the generated answer to the given question."*
+It obtained the following results:
 
 - 182 (91%) `RELEVANT`
 - 16 (8%) `PARTLY_RELEVANT`
 - 2 (1%) `NON_RELEVANT`
 
-The second prompt started with the phrases "Imagine you are a seasoned quality assurance specialist for an advanced question-answering system. 
+The second prompt started with the phrases:
+*"Imagine you are a seasoned quality assurance specialist for an advanced question-answering system. 
 Your expertise lies in assessing the precision and relevance of AI-generated responses. 
-Today, your mission is to scrutinize the correlation between a given question and its corresponding AI-generated answer."
+Today, your mission is to scrutinize the correlation between a given question and its corresponding AI-generated answer."*
+It obtained the following results:
 
 - 191 (95.5%) `RELEVANT`
 - 8 (4.0%) `PARTLY_RELEVANT`
