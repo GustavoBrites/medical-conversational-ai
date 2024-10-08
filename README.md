@@ -10,7 +10,10 @@ This project was implemented as part of
 [LLM Zoomcamp](https://github.com/DataTalksClub/llm-zoomcamp) -
 a free course about LLMs and RAG.
 
-To help evaluate the project, an internal project evaluation is available in [`assets/internal_project_evaluation.md`](assets/internal_project_evaluation.md).
+To help evaluate the project, an internal project evaluation is available in [`assets/internal_project_evaluation.md`](assets/internal_project_evaluation.md). 
+
+**Note for the reviews**: In this project, my primary focus was on mastering the fundamentals of an end-to-end RAG system, rather than exploring creative or advanced solutions. As a result, I closely followed the structure and architecture outlined in the course's project example [Fitness assistant](https://github.com/alexeygrigorev/fitness-assistant), adapting it to suit the specific requirements of my application. 
+
 
 ## Project Description
 
