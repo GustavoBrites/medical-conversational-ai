@@ -10,7 +10,7 @@ This project was implemented as part of
 [LLM Zoomcamp](https://github.com/DataTalksClub/llm-zoomcamp) -
 a free course about LLMs and RAG.
 
-To help evaluate the project, an internal project evaluation is available [here](assets/internal_project_evaluation.md).
+To help evaluate the project, an internal project evaluation is available in [`assets/internal_project_evaluation.md`](assets/internal_project_evaluation.md).
 
 ## Project Description
 
@@ -95,25 +95,6 @@ export POSTGRES_HOST=localhost
 python db_prep.py
 ```
 
-To check the content of the database, use `pgcli` (already
-installed with pipenv):
-
-```bash
-pipenv run pgcli -h localhost -U your_username -d course_assistant -W
-```
-
-You can view the schema using the `\d` command:
-
-```sql
-\d conversations;
-```
-
-And select from this table:
-
-```sql
-select * from conversations;
-```
-
 ### Run containers
 
 Since `docker-compose` is used, you just have to run to start the *postgres*, *grafana* and *app* containers:
@@ -122,7 +103,7 @@ Since `docker-compose` is used, you just have to run to start the *postgres*, *g
 docker-compose up
 ```
 
-### Restart containers
+### How to restart containers (if needed)
 
 To restart containers, run the following commands:
 
@@ -246,7 +227,7 @@ It's accessible at [localhost:3000](http://localhost:3000):
 - Login: "admin"
 - Password: "admin2"
 
-### Dashboards
+### Dashboard
 
 <p align="center">
   <img src="assets/grafana_dashboard_image.png">
