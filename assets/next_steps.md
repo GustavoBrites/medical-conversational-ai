@@ -6,4 +6,4 @@
 
 - Explore other searches and use a vector database
 
-- Use other LLM models 
+- Use other LLM models (Ollama, Groq)
