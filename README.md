@@ -22,7 +22,7 @@ Its conversational interface helps patients, healthcare professionals, and resea
 
 
 <p align="center">
-  <img src="assets/cli_image.jpg">
+  <img src="assets/cli_image.png">
 </p>
 
 ## Dataset
@@ -249,7 +249,7 @@ It's accessible at [localhost:3000](http://localhost:3000):
 ### Dashboards
 
 <p align="center">
-  <img src="assets/grafana_dashboard_image.jpg">
+  <img src="assets/grafana_dashboard_image.png">
 </p>
 
 The monitoring dashboard contains several panels:
