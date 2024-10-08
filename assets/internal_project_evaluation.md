@@ -54,5 +54,5 @@ Reference: The [evaluation criteria](https://github.com/DataTalksClub/llm-zoomca
   - [ ] Document re-ranking (1 point)
   - [ ] User query rewriting (1 point)
 
-- ✅ Bonus points (not covered in the course)
+- [ ] Bonus points (not covered in the course)
   - [ ]  Deployment to the cloud (2 points)
